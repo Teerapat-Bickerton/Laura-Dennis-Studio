@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Source Sans Pro , Helvetica, sans-serif;
+    font-family: Source Sans Pro, Helvetica, sans-serif;
     font-weight: 300;
     color: rgb(84, 92, 92);
 }
@@ -19,7 +19,7 @@ body {
     width: 100%;
     background: url(../images/Landing\ image\ 1.jpg);
 
-    /* Copied some code from https://www.w3schools.com/howto/howto_css_full_page.asp */
+    /* Copied code from https://www.w3schools.com/howto/howto_css_full_page.asp */
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,4 +38,37 @@ body {
     float: left;
     margin-left: 30px;
     margin-top: 15px;
+}
+
+/* Navigation links */
+
+.menu {
+    font-size: 120%;
+    letter-spacing: 2px;
+    float: right;
+    text-transform: lowercase;
+}
+
+.menu li {
+    list-style-type: none;
+    margin-right: 20px;
+    float: left;
+    padding-top: 60px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu a:hover {
+    border-bottom: 1px solid rgb(84, 92, 92);
+}
+
+.active {
+    border-bottom: 1px solid rgb(84, 92, 92);
+}
+
+#logo:hover {
+    opacity: 0.6;
 }
