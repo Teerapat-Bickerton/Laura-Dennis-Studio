@@ -93,4 +93,19 @@ body {
     .hamburger {
         display: block;
     }
+
+    .menu.show {
+        display: block;
+        color: rgb(225, 240, 240);
+        background-color: rgb(84, 92, 92);
+        float: right;
+        clear: right;
+        width: 150px;
+    }
+
+    .menu li {
+        padding: 10px;
+        border: none;
+        margin: 0;
+    }
 }        
