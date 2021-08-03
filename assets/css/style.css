@@ -23,6 +23,8 @@ body {
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
+
+    position: relative;
 }
 
 #header-banner {
@@ -80,6 +82,37 @@ body {
     display: none;
     float: right;
     padding: 30px 30px 0 0;
+    cursor: pointer;
+}
+
+#opening-times h2 {
+    color: rgb(225, 240, 240);
+    font-family: Source Sans Pro, Helvetica, sans-serif;
+}
+
+#opening-times h3 {
+    color: rgb(225, 240, 240);
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+#opening-times {
+    font-size: 85%;
+    letter-spacing: 4px;
+
+    width: 450px;
+    height: 150px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgb(84, 92, 92, .7);
+
+    bottom: 75px;
+    right: 150px;
+
+    position: absolute;
 }
 
 /* Media queries */
@@ -98,6 +131,7 @@ body {
         display: block;
         color: rgb(225, 240, 240);
         background-color: rgb(84, 92, 92);
+        font-size: 100%;
         float: right;
         clear: right;
         width: 150px;
@@ -107,5 +141,13 @@ body {
         padding: 10px;
         border: none;
         margin: 0;
+    }
+
+    .menu a:hover {
+        border-bottom: 1px solid rgb(225, 240, 240);
+    }
+    
+    .active {
+        border-bottom: 1px solid rgb(225, 240, 240);
     }
 }        
