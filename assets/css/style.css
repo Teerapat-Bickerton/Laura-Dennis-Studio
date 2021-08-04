@@ -17,7 +17,7 @@ body {
 #header-image {
     height: 1150px;
     width: 100%;
-    background: url(../images/Landing\ image\ 1.jpg);
+    background: url(../images/Landing-image1.jpg);
 
     /* Copied code from https://www.w3schools.com/howto/howto_css_full_page.asp */
     background-position: center top;
@@ -258,5 +258,39 @@ footer {
     
     .active {
         border-bottom: 1px solid rgb(225, 240, 240);
+    }
+}
+
+/* For medium screen sizes from 600px screen wide and down */
+@media screen and (max-width: 600px) {
+    #header-image {
+        height: 900px;
+        width: 100%;
+        background: url(../images/Landing-image2.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        position: relative;
+    }
+    
+    #aesthetic-ethos-gallery {
+        width: 450px;
+    }
+    
+    #ethos-images {
+        column-count: 1;
+    }
+
+    #ethos-images > img {
+        border: 10px solid transparent;
+    }
+
+    #opening-times {
+        left: 0;
+        top: 500px;
+        font-size: 70%;
+        letter-spacing: 1px;
+        width: 300px;
     }
 }
