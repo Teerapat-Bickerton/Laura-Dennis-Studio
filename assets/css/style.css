@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -130,7 +130,7 @@ body {
     .menu.show {
         display: block;
         color: rgb(225, 240, 240);
-        background-color: rgb(84, 92, 92);
+        background-color: rgb(84, 92, 92, .7);
         font-size: 100%;
         float: right;
         clear: right;
