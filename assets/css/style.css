@@ -298,7 +298,7 @@ footer {
     }
 
     #artworks-container {
-        border-top: 50px solid transparent;
+        border-top: 66px solid transparent;
     }
     
     #artworks-images {
@@ -306,7 +306,7 @@ footer {
     }
 
     #artworks-images img {
-        border-bottom: 50px solid transparent;
+        border-bottom: 66px solid transparent;
     }
 }
 
@@ -321,7 +321,7 @@ footer {
     }
 
     #opening-times {
-        top: 450px;
+        top: 520px;
         background-color: rgb(84, 92, 92, .6);
     }
 
