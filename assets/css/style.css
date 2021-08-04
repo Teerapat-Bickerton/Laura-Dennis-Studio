@@ -210,6 +210,22 @@ footer {
     }
 }
 
+/* For medium screen sizes from 900px wide and down */
+@media screen and (max-width: 900px) {
+    #aesthetic-ethos-gallery {
+        width: 600px;
+    }
+    
+    #ethos-images > img {
+        border: 20px solid transparent;
+    }
+
+    #opening-times {
+        right: 75px;
+        bottom: 225px;
+    }
+}
+
 /* For medium screen sizes from 767px screen wide and down */
 @media screen and (max-width: 767px) {
     .menu {
