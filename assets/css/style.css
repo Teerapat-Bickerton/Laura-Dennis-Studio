@@ -99,6 +99,7 @@ body {
 
 #opening-times {
     font-size: 85%;
+    text-transform: lowercase;
     letter-spacing: 4px;
 
     width: 450px;
@@ -177,4 +178,35 @@ body {
     width: 100%;
     border: 60px solid transparent;
     box-sizing: border-box;
+}
+
+/* Footer */
+
+footer {
+    height: 150px;
+    background-color: rgb(84, 92, 92, .7);
+    box-shadow: 0 0 3px rgb(84, 92, 92);
+}
+
+.contact-details {
+    text-align: center;
+    text-transform: lowercase;
+    letter-spacing: 2px;    
+    font-size: 120%;
+    padding: 30px 0;
+    color: rgb(225, 240, 240);
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    padding: 0 2%;
+    color: rgb(225, 240, 240);
 }
