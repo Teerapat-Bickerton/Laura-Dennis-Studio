@@ -226,7 +226,7 @@ footer {
     }
 }
 
-/* For medium screen sizes from 767px screen wide and down */
+/* For medium to smaller screen sizes from 767px screen wide and down */
 @media screen and (max-width: 767px) {
     .menu {
         display: none;
@@ -261,13 +261,13 @@ footer {
     }
 }
 
-/* For medium screen sizes from 600px screen wide and down */
+/* For smaller screen sizes from 600px screen wide and down */
 @media screen and (max-width: 600px) {
     #header-image {
         height: 900px;
         width: 100%;
         background: url(../images/Landing-image2.jpg);
-        background-position: center top;
+        background-position: top left;
         background-repeat: no-repeat;
         background-size: cover;
     
@@ -287,10 +287,28 @@ footer {
     }
 
     #opening-times {
+        width: 300px;
+        height: 100px;
+        padding: 10px;
         left: 0;
-        top: 500px;
+        top: 575px;
         font-size: 70%;
         letter-spacing: 1px;
+    }
+}
+
+/* For smaller screen sizes from 450px screen wide and down */
+@media screen and (max-width: 450px) {
+    #header-image {
+        background-position: center right;
+    }
+    
+    #aesthetic-ethos-gallery {
         width: 300px;
+    }
+
+    #opening-times {
+        top: 450px;
+        background-color: rgb(84, 92, 92, .6);
     }
 }
