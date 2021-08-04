@@ -116,49 +116,12 @@ body {
     position: absolute;
 }
 
-/* Media queries */
-
-/* For medium screen sizes from 767px screen wide and down */
-@media screen and (max-width: 767px) {
-    .menu {
-        display: none;
-    }
-
-    .hamburger {
-        display: block;
-    }
-
-    .menu.show {
-        display: block;
-        color: rgb(225, 240, 240);
-        background-color: rgb(84, 92, 92, .7);
-        font-size: 100%;
-        float: right;
-        clear: right;
-        width: 150px;
-    }
-
-    .menu li {
-        padding: 10px;
-        border: none;
-        margin: 0;
-    }
-
-    .menu a:hover {
-        border-bottom: 1px solid rgb(225, 240, 240);
-    }
-    
-    .active {
-        border-bottom: 1px solid rgb(225, 240, 240);
-    }
-}
-
 /* Aesthetic ethos gallery */
 
 #gallery-container {
     width: 100%;
     height: auto;
-    background-color: rgb(225, 240, 240, .4);
+    background-color: rgb(225, 240, 240, .6);
 }
 
 #aesthetic-ethos-gallery {
@@ -166,7 +129,6 @@ body {
     width: 1200px;
     height: auto;
     margin: 0 auto;
-    color: transparent;
 }
 
 #ethos-images {
@@ -209,4 +171,61 @@ footer {
     font-size: 160%;
     padding: 0 2%;
     color: rgb(225, 240, 240);
+}
+
+/* Artworks page */
+
+#artworks-container {
+    border-top: 75px solid transparent;
+    height: auto;
+    width: 100%;
+    background-color: rgb(225, 240, 240, .6);
+}
+
+#artworks-images {
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+}    
+
+#artworks-images img {
+    width: 100%;
+    border-bottom: 75px solid transparent;
+}
+
+/* Media queries */
+
+/* For medium screen sizes from 767px screen wide and down */
+@media screen and (max-width: 767px) {
+    .menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .menu.show {
+        display: block;
+        color: rgb(225, 240, 240);
+        background-color: rgb(84, 92, 92, .7);
+        font-size: 100%;
+        float: right;
+        clear: right;
+        width: 150px;
+    }
+
+    .menu li {
+        padding: 5px 10px;
+        border: none;
+        margin: 0;
+    }
+
+    .menu a:hover {
+        border-bottom: 1px solid rgb(225, 240, 240);
+    }
+    
+    .active {
+        border-bottom: 1px solid rgb(225, 240, 240);
+    }
 }
