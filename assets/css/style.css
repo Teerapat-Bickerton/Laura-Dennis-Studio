@@ -38,7 +38,7 @@ body {
     height: 120px;
     width: 120px;
     float: left;
-    margin-left: 30px;
+    margin-left: 15px;
     margin-top: 15px;
 }
 
@@ -199,6 +199,7 @@ footer {
 @media screen and (max-width: 1200px) {
     #aesthetic-ethos-gallery {
         width: 900px;
+        padding: 75px 0;
     }
     
     #ethos-images {
@@ -295,6 +296,18 @@ footer {
         font-size: 70%;
         letter-spacing: 1px;
     }
+
+    #artworks-container {
+        border-top: 50px solid transparent;
+    }
+    
+    #artworks-images {
+        width: 450px;
+    }
+
+    #artworks-images img {
+        border-bottom: 50px solid transparent;
+    }
 }
 
 /* For smaller screen sizes from 450px screen wide and down */
@@ -311,4 +324,8 @@ footer {
         top: 450px;
         background-color: rgb(84, 92, 92, .6);
     }
+
+    #artworks-images {
+        width: 300px;
+    }    
 }
