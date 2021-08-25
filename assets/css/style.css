@@ -249,6 +249,11 @@ footer {
     background-color: rgb(84, 92, 92);
 }
 
+.workshops-text a {
+    color: rgb(84, 92, 92);
+    letter-spacing: 1px;
+}
+
 /* Media queries */
 
 /* For larger to medium screen sizes from 1200px wide and down */
