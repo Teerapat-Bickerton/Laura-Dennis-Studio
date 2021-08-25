@@ -254,6 +254,22 @@ footer {
     letter-spacing: 1px;
 }
 
+/* Form */
+
+#form-background {
+    width: 100%;
+    height: auto;
+    background-color: rgb(225, 240, 240, .6);
+}
+
+#form {
+    background-image: url(../images/LD-form-image.jpg);
+    width: 1200px;
+    height: 900px;
+    background-position: center center;
+    margin: 0 auto;
+}
+
 /* Media queries */
 
 /* For larger to medium screen sizes from 1200px wide and down */
