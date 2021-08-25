@@ -321,6 +321,14 @@ footer {
     .active {
         border-bottom: 1px solid rgb(225, 240, 240);
     }
+
+    .workshops-image-container {
+        width: 600px;
+    }
+
+    .workshops-text-container {
+        width: 600px;
+    }
 }
 
 /* For smaller screen sizes from 600px screen wide and down */
@@ -369,6 +377,14 @@ footer {
     #artworks-images img {
         border-bottom: 66px solid transparent;
     }
+
+    .workshops-image-container {
+        width: 450px;
+    }
+
+    .workshops-text-container {
+        width: 450px;
+    }
 }
 
 /* For smaller screen sizes from 450px screen wide and down */
@@ -387,6 +403,14 @@ footer {
     }
 
     #artworks-images {
-        width: 300px;
+        width: 320px;
+    }
+
+    .workshops-image-container {
+        width: 310px;
+    }
+
+    .workshops-text-container {
+        width: 310px;
     }
 }
