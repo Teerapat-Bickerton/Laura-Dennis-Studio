@@ -206,16 +206,9 @@ footer {
     width: 750px;
     height: auto;
     margin: 0 auto;
-    background-color: green;
 }
 
-#workshops-image-1 {
-    background-color: red;
-    margin: 0 30px;
-}
-
-#workshops-image-2 {
-    background-color: purple;
+#workshops-image-1, #workshops-image-2 {
     margin: 0 30px;
 }
 
@@ -234,6 +227,16 @@ footer {
     width: 750px;
     height: auto;
     margin: 0 auto;
+}
+
+.workshops-text {
+    padding: 0 30px 60px 30px;
+}
+
+.workshops-text hr {
+    height: 1px;
+    color: rgb(84, 92, 92);
+    background-color: rgb(84, 92, 92);
 }
 
 /* Media queries */
