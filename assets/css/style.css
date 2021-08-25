@@ -202,7 +202,7 @@ footer {
 }
 
 .workshops-image-container {
-    padding: 60px 0;
+    padding: 60px 0 30px 0;
     width: 750px;
     height: auto;
     margin: 0 auto;
@@ -231,6 +231,16 @@ footer {
 
 .workshops-text {
     padding: 0 30px 60px 30px;
+}
+
+.workshops-text h3, h4 {
+    letter-spacing: 2px;
+}
+
+.workshops-text p {
+    font-family: Roboto, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 90%;
 }
 
 .workshops-text hr {
