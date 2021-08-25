@@ -193,6 +193,10 @@ footer {
     border-bottom: 75px solid transparent;
 }
 
+/* Workshops page */
+
+
+
 /* Media queries */
 
 /* For larger to medium screen sizes from 1200px wide and down */
@@ -313,7 +317,7 @@ footer {
 /* For smaller screen sizes from 450px screen wide and down */
 @media screen and (max-width: 450px) {
     #header-image {
-        background-position: center right;
+        background-position: top -30px left -30px;
     }
     
     #aesthetic-ethos-gallery {
