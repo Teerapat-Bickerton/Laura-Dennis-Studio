@@ -50,14 +50,14 @@
     <section>
         <div id="form-background">
             <div id="form">
-                <form action="info@lauradennis.co.uk" method="POST">
+                <form action="info@lauradennis.co.uk" method="POST" class="signup-form">
                     <h2>Join a session</h2>
                     <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="first-name" required>
+                    <input type="text" id="fname" name="first-name" class="text-input" required>
                     <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="last-name" required>
+                    <input type="text" id="lname" name="last-name" class="text-input" required>
                     <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email-address" required>
+                    <input type="email" id="email" name="email-address" class="text-input" required>
                     <p>Which session would you like to attend?</p>
                     <label for="thursday">Thursday</label>
                     <input type="radio" id="thursday" name="session-choice" value="thursday" required>
@@ -65,6 +65,7 @@
                     <input type="radio" id="sunday" name="session-choice" value="sunday" required>
                     <label for="both">Both</label>
                     <input type="radio" id="both" name="session-choice" value="both" required>
+                    <input type="submit" value="Let's Paint!" class="join-button">
                 </form>
             </div>
         </div>
