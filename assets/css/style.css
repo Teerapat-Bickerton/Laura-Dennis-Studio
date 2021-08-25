@@ -263,9 +263,9 @@ footer {
 }
 
 #form {
-    background-image: url(../images/LD-form-image.jpg);
+    background-image: url(../images/LD-form-image1.jpg);
     width: 1200px;
-    height: 900px;
+    height: 1200px;
     background-position: center center;
     margin: 0 auto;
 }
@@ -336,6 +336,10 @@ footer {
     #ethos-images > img {
         border: 50px solid transparent;
     }
+
+    #form {
+        width: 900px;
+    }
 }
 
 /* For medium screen sizes from 900px wide and down */
@@ -351,6 +355,10 @@ footer {
     #opening-times {
         right: 75px;
         bottom: 225px;
+    }
+
+    #form {
+        width: 767px;
     }
 }
 
@@ -393,6 +401,10 @@ footer {
     }
 
     .workshops-text-container {
+        width: 600px;
+    }
+
+    #form {
         width: 600px;
     }
 }
@@ -451,6 +463,11 @@ footer {
     .workshops-text-container {
         width: 450px;
     }
+
+    #form {
+        width: 450px;
+        height: 700px;
+    }
 }
 
 /* For smaller screen sizes from 450px screen wide and down */
@@ -478,5 +495,9 @@ footer {
 
     .workshops-text-container {
         width: 310px;
+    }
+
+    #form {
+        width: 320px;
     }
 }
