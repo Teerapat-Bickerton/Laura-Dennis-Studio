@@ -231,6 +231,7 @@ footer {
 
 .workshops-text {
     padding: 0 30px 60px 30px;
+    text-transform: lowercase;
 }
 
 .workshops-text h3, h4 {
@@ -355,6 +356,11 @@ footer {
     margin: 0 auto;
 }
 
+.makers-corner-text {
+    padding: 0 30px 60px 30px;
+    text-transform: lowercase;
+}
+
 .makers-corner-text h1 {
     padding-top: 75px;
 }
@@ -475,6 +481,14 @@ footer {
     #form {
         width: 600px;
     }
+
+    .makers-corner-image-container {
+        width: 600px;
+    }
+
+    .makers-corner-text-container {
+        width: 600px;
+    }
 }
 
 /* For smaller screen sizes from 600px screen wide and down */
@@ -536,6 +550,14 @@ footer {
         width: 450px;
         height: 700px;
     }
+
+    .workshops-image-container {
+        width: 450px;
+    }
+
+    .makers-corner-text-container {
+        width: 450px;
+    }
 }
 
 /* For smaller screen sizes from 450px screen wide and down */
@@ -567,5 +589,13 @@ footer {
 
     #form {
         width: 320px;
+    }
+
+    .workshops-image-container {
+        width: 310px;
+    }
+
+    .makers-corner-text-container {
+        width: 310px;
     }
 }
