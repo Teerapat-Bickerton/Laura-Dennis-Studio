@@ -324,6 +324,31 @@ footer {
     border-color: rgb(225, 240, 240);
 }
 
+/* Makers corner page */
+
+#makers-corner-container {
+    width: 100%;
+    height: auto;
+    background-color: rgb(225, 240, 240, .6);
+}
+
+.makers-corner-image-container {
+    padding: 60px 0 30px 0;
+    width: 750px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.makers-corner-image {
+    margin: 0 30px;
+}
+
+.makers-corner-image img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
 /* Media queries */
 
 /* For larger to medium screen sizes from 1200px wide and down */
