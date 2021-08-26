@@ -254,6 +254,10 @@ footer {
     letter-spacing: 1px;
 }
 
+.workshops-text a:hover {
+    color: rgb(84, 92, 92, .5);
+}
+
 /* Form */
 
 #form-background {
@@ -276,7 +280,7 @@ footer {
     background-color: rgb(84, 92, 92, .6);
     max-width: 400px;
     position: absolute;
-    left: 10%;
+    left: 30%;
     padding: 30px;
 }
 
@@ -340,6 +344,10 @@ footer {
     #form {
         width: 900px;
     }
+
+    .signup-form {
+        left: 20%;
+    }
 }
 
 /* For medium screen sizes from 900px wide and down */
@@ -360,6 +368,11 @@ footer {
     #form {
         width: 767px;
     }
+
+    .signup-form {
+        left: 10%;
+    }
+
 }
 
 /* For medium to smaller screen sizes from 767px screen wide and down */
