@@ -559,6 +559,20 @@ footer {
     .makers-corner-text-container {
         width: 600px;
     }
+
+    .laura-background {
+        height: 2000px;
+    }
+
+    .laura-container {
+        width: 600px;
+    }
+
+    #laura-text-left, #laura-text-right {
+        width: auto;
+        padding: 25px;
+        float: none;
+    }
 }
 
 /* For smaller screen sizes from 600px screen wide and down */
@@ -628,6 +642,10 @@ footer {
     .makers-corner-text-container {
         width: 450px;
     }
+
+    .laura-container {
+        width: 450px;
+    }
 }
 
 /* For smaller screen sizes from 450px screen wide and down */
@@ -674,6 +692,14 @@ footer {
     }
 
     .makers-corner-text-container {
+        width: 310px;
+    }
+
+    .laura-background {
+        height: 2400px;
+    }
+
+    .laura-container {
         width: 310px;
     }
 }
