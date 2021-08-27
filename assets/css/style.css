@@ -202,7 +202,7 @@ footer {
 }
 
 .workshops-image-container {
-    padding: 60px 0 30px 0;
+    padding: 66px 0 30px 0;
     width: 750px;
     height: auto;
     margin: 0 auto;
@@ -555,10 +555,6 @@ footer {
         width: 450px;
     }
 
-    .makers-corner-image {
-        margin: 0;
-    }
-
     .makers-corner-text-container {
         width: 450px;
     }
@@ -586,6 +582,10 @@ footer {
     .workshops-image-container {
         width: 310px;
     }
+    
+    #workshops-image-1, #workshops-image-2 {
+        margin: 0;
+    }
 
     .workshops-text-container {
         width: 310px;
@@ -597,6 +597,10 @@ footer {
 
     .makers-corner-image-container {
         width: 310px;
+    }
+
+    .makers-corner-image{
+        margin: 0;
     }
 
     .makers-corner-text-container {
