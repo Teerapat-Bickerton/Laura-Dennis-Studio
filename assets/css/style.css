@@ -234,7 +234,8 @@ footer {
     text-transform: lowercase;
 }
 
-.workshops-text h3, h4 {
+.workshops-text h1, h3, h4 {
+    font-family: Source Sans Pro, Helvetica, sans-serif;
     letter-spacing: 2px;
 }
 
@@ -251,6 +252,7 @@ footer {
 }
 
 .workshops-text a {
+    font-family: Source Sans Pro, Helvetica, sans-serif;
     color: rgb(84, 92, 92);
     letter-spacing: 1px;
 }
@@ -278,7 +280,7 @@ footer {
 .signup-form {
     margin: 150px 10% 0 0;
     color: rgb(225, 240, 240);
-    background-color: rgb(84, 92, 92, .6);
+    background-color: rgb(84, 92, 92, .8);
     max-width: 400px;
     position: absolute;
     left: 30%;
@@ -370,6 +372,7 @@ footer {
 }
 
 .makers-corner-text h1, h3 {
+    font-family: Source Sans Pro, Helvetica, sans-serif;
     letter-spacing: 2px;
 }
 
@@ -383,6 +386,45 @@ footer {
     height: 1px;
     color: rgb(84, 92, 92);
     background-color: rgb(84, 92, 92);
+}
+
+/* Laura page */
+
+.laura-background {
+    width: 100%;
+    height: auto;
+    background-color: rgb(225, 240, 240, .6);
+}
+
+.laura-container {
+    width: 750px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.laura-title-text {
+    text-transform: lowercase;
+}
+
+.laura-title-text h1 {
+    padding-top: 75px;
+}
+
+.laura-title-text hr {
+    height: 1px;
+    color: rgb(84, 92, 92);
+    background-color: rgb(84, 92, 92);
+    margin-bottom: 75px;
+}
+
+.laura-text {
+    font-family: Roboto, Helvetica, sans-serif;
+    text-transform: lowercase;
+    padding: 30px;
+}
+
+.laura-text p {
+    padding: 30px;
 }
 
 /* Media queries */
