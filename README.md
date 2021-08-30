@@ -111,3 +111,30 @@ The webpage would be aimed at people who are interested in art, collectors, peop
 * Laura Wireframes
 
 ![Laura wireframes](assets/images/wireframe-5.jpg)
+
+# Technologies Used
+
+## Languages Used
+
+* HTML5
+* CSS3
+
+## Frameworks, Libraries & Programs Used
+
+1. Hover.css:
+    * Hover.css was used on the navigation anchors to to put a line under them when they were being hovered over as well as the logo to change the opacity while being hovered over.
+2. Google Fonts
+    * Google Fonts was used to import the Source Sans Pro and Roboto fonts which were used throughout the website.
+3. Font Awesome
+    * Font Awesome was used to get the social media icons in the footer.
+4. Git
+    * Git was used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub.
+5. GitHub 
+    * GitHub is used to store the projects code after being pushed from Git.
+6. Affinity Photo
+    * Affinity Photo was used to resize, crop and edit photos for the website.
+7. TinyPNG.com 
+    * TinyPNG.com was used to compress images so the files were smaller.
+8. Balsamiq
+    * Balsamiq was used to create the wireframes during the design process.
+
