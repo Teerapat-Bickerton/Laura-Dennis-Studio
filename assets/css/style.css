@@ -17,7 +17,7 @@ body {
 #header-image {
     height: 1150px;
     width: 100%;
-    background: url(../images/Landing-image1.jpg);
+    background: url(../images/landing-image1.jpg);
 
     /* Copied code from https://www.w3schools.com/howto/howto_css_full_page.asp */
     background-position: center top;
@@ -73,16 +73,6 @@ body {
 
 #logo:hover {
     opacity: 0.6;
-}
-
-.hamburger {
-    color: rgb(84, 92, 92);
-    background-color: transparent;
-    font-size: 20px;
-    display: none;
-    float: right;
-    padding: 20px;
-    cursor: pointer;
 }
 
 #opening-times h2 {
@@ -216,7 +206,7 @@ footer {
 }
 
 .workshops-title-container {
-    padding: 0 0 30px 0;
+    /* padding: 0 0 30px 0; */
     width: 750px;
     height: auto;
     margin: 0 auto;
@@ -232,7 +222,8 @@ footer {
     height: 1px;
     color: rgb(84, 92, 92);
     background-color: rgb(84, 92, 92);
-    padding: 0 30px 0 30px;
+    margin-bottom: 60px;
+    border: 0 30px;
 }
 
 .workshops-image-container {
@@ -304,7 +295,7 @@ footer {
 }
 
 #form {
-    background-image: url(../images/LD-form-image1.jpg);
+    background-image: url(../images/ld-form-image1.jpg);
     width: 1200px;
     height: 1200px;
     background-position: center center;
@@ -545,21 +536,15 @@ footer {
 /* For medium to smaller screen sizes from 767px screen wide and down */
 @media screen and (max-width: 767px) {
     .menu {
-        display: none;
-    }
-
-    .hamburger {
-        display: block;
-    }
-
-    .menu.show {
         display: block;
         color: rgb(225, 240, 240);
         background-color: rgb(84, 92, 92, .7);
-        font-size: 100%;
+        font-size: 99%;
         float: right;
-        clear: right;
+        /* clear: right; */
         width: 150px;
+        height: 150px;
+        box-shadow: 0 0 10px #000000;
     }
 
     .menu li {
@@ -620,7 +605,7 @@ footer {
     #header-image {
         height: 900px;
         width: 100%;
-        background: url(../images/Landing-image2.jpg);
+        background: url(../images/landing-image2.jpg);
         background-position: top left;
         background-repeat: no-repeat;
         background-size: cover;
