@@ -64,3 +64,50 @@ The webpage would be aimed at people who are interested in art, collectors, peop
 ## Future Features to Implement
 
 * I would like to, when I have the skillset, implement an e-commerce platform, specifically to the Makers Corner section, though could be added to all of her work in the future. 
+
+# User Experience (UX)
+
+## User stories
+
+* First Time User Goals
+    * As a first time user I want to be able instantly see and understand what the main purpose of the site is and what it is about.
+    * As a first time visitor I would like to easily walk through the site with ease and find all the content.
+    * As a first time user I want to find out more about Laura's work and Laura herself. I would also like to link up Laura's social media sites and understand her aesthetic.
+* Returning Visitor Goals
+    * As a returning visitor, I want to see if Laura has painted any new artworks.
+    * As a returning visitor, I want to find out about workshops.
+    * As a returning visitor, I want to find out about other Welsh artists and artisans.
+* Frequent User Goals
+    * As a frequent user, I want to see if there are new workshops.
+    * As a frequent user, I want to find out about any new products from Welsh artists and artisans.
+
+## Design 
+
+* Colour Scheme
+    * The two main colours are a dark green rgb(84, 92, 92) and pale eggshell blue rgb(225, 240, 240) that was chosen by Laura. 
+* Typography
+    * The Source Sans Pro and Roboto fonts are the main fonts used throughout the websites, with Helvetica and sans-serif used as back-ups in case the fonts can't be loaded by the browser. Source Sans Pro was chosen by Laura and Roboto was recommended as a complimentary font on Google Fonts, they are both clear, legible and modern.
+* Imagery 
+    * Imagery is vital, especially for a Artist's gallery website. The large landing image gives you a feel of what it is like to walk in to Laura's gallery. Images throughout the website are meant to draw the user in and get an understanding of who Laura is what is her style.
+    
+## Wireframes 
+
+* Home Page Wireframes
+
+![Home page wireframes](assets/images/wireframe-1.jpg)
+
+* Artworks Wireframes
+
+![Artworks wireframes](assets/images/wireframe-2.jpg)
+
+* Workshops wireframes
+
+![Workshops wireframes](assets/images/wireframe-3.jpg)
+
+* Makers Corner Wireframes
+
+![Makers corner wireframes](assets/images/wireframe-4.jpg)
+
+* Laura Wireframes
+
+![Laura wireframes](assets/images/wireframe-5.jpg)

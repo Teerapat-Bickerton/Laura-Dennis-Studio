@@ -536,27 +536,16 @@ footer {
 @media screen and (max-width: 767px) {
     .menu {
         display: block;
-        color: rgb(225, 240, 240);
-        background-color: rgb(84, 92, 92, .7);
         font-size: 99%;
         float: right;
         width: 150px;
         height: 150px;
-        box-shadow: 0 0 10px #000000;
     }
 
     .menu li {
         padding: 5px 10px;
         border: none;
         margin: 0;
-    }
-
-    .menu a:hover {
-        border-bottom: 1px solid rgb(225, 240, 240);
-    }
-    
-    .active {
-        border-bottom: 1px solid rgb(225, 240, 240);
     }
 
     .workshops-title-container {
