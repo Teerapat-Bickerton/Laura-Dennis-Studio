@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Source Sans Pro, Helvetica, sans-serif;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-weight: 300;
     color: rgb(84, 92, 92);
 }
@@ -77,7 +77,7 @@ body {
 
 #opening-times h2 {
     color: rgb(225, 240, 240);
-    font-family: Source Sans Pro, Helvetica, sans-serif;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 
 #opening-times h3 {
@@ -182,7 +182,6 @@ footer {
 
 #artworks-title hr {
     height: 1px;
-    color: rgb(84, 92, 92);
     background-color: rgb(84, 92, 92);
 }
 
@@ -219,7 +218,6 @@ footer {
 
 .workshops-title-container hr {
     height: 1px;
-    color: rgb(84, 92, 92);
     background-color: rgb(84, 92, 92);
     margin-bottom: 60px;
     border: 0 30px;
@@ -259,7 +257,7 @@ footer {
 }
 
 .workshops-text h3, h4 {
-    font-family: Source Sans Pro, Helvetica, sans-serif;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
     letter-spacing: 2px;
 }
 
@@ -276,7 +274,7 @@ footer {
 }
 
 .workshops-text a {
-    font-family: Source Sans Pro, Helvetica, sans-serif;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
     color: rgb(84, 92, 92);
     letter-spacing: 1px;
 }
@@ -396,7 +394,7 @@ footer {
 }
 
 .makers-corner-text h1, h3 {
-    font-family: Source Sans Pro, Helvetica, sans-serif;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
     letter-spacing: 2px;
 }
 
@@ -408,7 +406,6 @@ footer {
 
 .makers-corner-text hr {
     height: 1px;
-    color: rgb(84, 92, 92);
     background-color: rgb(84, 92, 92);
 }
 
@@ -439,7 +436,6 @@ footer {
 
 .laura-title-text hr {
     height: 1px;
-    color: rgb(84, 92, 92);
     background-color: rgb(84, 92, 92);
     margin-bottom: 75px;
 }

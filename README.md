@@ -138,3 +138,30 @@ The webpage would be aimed at people who are interested in art, collectors, peop
 8. Balsamiq
     * Balsamiq was used to create the wireframes during the design process.
 
+# Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+* W3C Markup Validator Results
+
+![W3C Markup validator results](assets/images/validator-html.jpg)
+
+It showed a warning for not having a header on the aesthetic ethos gallery on the landing page, I chose not to add one, as I thought it would go against the aesthetic of the page.
+
+* W3C CSS Validator Results
+
+![W3C CSS validator results](assets/images/validator-css.jpg)
+
+It showed five warnings for font that had whitespace and not quoted and five warnings for hr lines color and background-color which were the same, these have all been corrected now.
+
+## Further Testing
+
+* The website was tested on Google Chrome, Microsoft Edge, Mozilla Firefox a Quora. It was not not tested on Safari as non of my family or friends have any Apple products.
+* The website was viewed on a variety of devices such as a Desktop, Laptop, Xiaomi Poco X3 Pro, Samsung A70 and Samsung A5.
+* A large amount of testing was done to ensure that all pages are linking correctly.
+* A few friends and family have trialed out the website to see if they could find any issues.
+
+## Known bugs
+
+* There are no known bugs at the moment, however I was experimenting with trying to implement a hamburger using javascript, however there were too many errors, so I decided to delete it all.
+
