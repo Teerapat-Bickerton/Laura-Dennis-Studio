@@ -152,7 +152,13 @@ It showed a warning for not having a header on the aesthetic ethos gallery on th
 
 ![W3C CSS validator results](assets/images/validator-css.jpg)
 
-It showed five warnings for font that had whitespace and not quoted and five warnings for hr lines color and background-color which were the same, these have all been corrected now.
+It showed five warnings for font that had whitespace and not quoted and five warnings for hr lines color and background-color which were the same, these have all been corrected now, by adding quotations to the necessary fonts and deleting the lines of code for color, where both color and background-color were the same.
+
+* Accessability
+
+![Lighthouse accessibility results](assets/images/validator-accessibility.jpg)
+
+I confirmed using Lighthouse in devtools the fonts and colour chosen are accessible and legible.
 
 ## Further Testing
 
