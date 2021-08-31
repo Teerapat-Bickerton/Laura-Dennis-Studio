@@ -165,3 +165,16 @@ It showed five warnings for font that had whitespace and not quoted and five war
 
 * There are no known bugs at the moment, however I was experimenting with trying to implement a hamburger using javascript, however there were too many errors, so I decided to delete it all.
 
+# Deployment
+
+## GitHub Pages
+
+The project was deployed to GitHub using the following steps...
+
+1. Log in to GitHub and select the appropiate repository.
+2. At the top of the repository, select the "Settings" button.
+3. Find the "Pages" button and press.
+4. Under "Source", click on the dropdown menu and select "Main" branch.
+5. THe page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://teerapat-bickerton.github.io/Laura-Dennis-Studio/) in the "GitHub Pages" section.
+
