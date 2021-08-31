@@ -154,7 +154,7 @@ It showed a warning for not having a header on the aesthetic ethos gallery on th
 
 It showed five warnings for font that had whitespace and not quoted and five warnings for hr lines color and background-color which were the same, these have all been corrected now, by adding quotations to the necessary fonts and deleting the lines of code for color, where both color and background-color were the same.
 
-* Accessability
+* Accessability 
 
 ![Lighthouse accessibility results](assets/images/validator-accessibility.jpg)
 
