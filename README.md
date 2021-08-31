@@ -178,3 +178,33 @@ The project was deployed to GitHub using the following steps...
 5. THe page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [link](https://teerapat-bickerton.github.io/Laura-Dennis-Studio/) in the "GitHub Pages" section.
 
+# Credits
+
+## Code
+
+* The large proportion of the code was from the Code Institute Love Running walkthrough project, but edited by the developer to suit this websites needs.
+
+## Content
+
+* All website content was wriiten by the developer and Laura Dennis.
+
+* Used content from https://github.com/Code-Institute-Solutions/SampleREADME to help with README file.
+
+## Media
+
+* All images were given to me from Laura Dennis
+
+## Inspiration 
+
+* I took inspiration from https://www.flowgallery.co.uk/ and https://www.toa.st/.
+
+## Acknowledgements
+
+* My mentor Can Sücüllü for helpful feedback.
+
+* Tutor support at the code institute for their support.
+
+
+
+
+
